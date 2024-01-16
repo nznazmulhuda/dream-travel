@@ -50,6 +50,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-top: 100px;
 }
 
 .two p {
@@ -469,4 +470,139 @@
 
 .six .six-image .save h4 {
   margin-bottom: 23px;
+}
+
+
+/* last minitues section  */
+
+.last {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.last h1 {
+  color: #363636;
+  text-align: center;
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 47px;
+  margin-bottom: 25px;
+}
+
+.last p {
+  color: #808285;
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+  width: 80%;
+  margin-bottom: 65px;
+}
+
+.image-section {
+  display: flex;
+  gap: 20px;
+  /* flex-wrap: wrap; */
+  width: 100%;
+}
+
+.image {
+  width: calc(25% - 16px);
+  height: 500px;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+  opacity: 1;
+  transition: opacity 1s ease 0.1s;
+}
+
+.offer {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 40%;
+  background-color: rgba(255, 255, 255, 0.722);
+  border-radius: 10px;
+  bottom: -25%;
+  transition: bottom 1s ease 0.1s;
+}
+
+.offer h1 {
+  font-size: 25px;
+  margin-top: 10px;
+  width: 65%;
+  font-weight: 800;
+  color: black;
+}
+
+.offer span {
+  text-decoration: line-through;
+  margin-left: 7px;
+  font-size: 16px;
+  color: red;
+}
+
+.offer p {
+  font-size: 20px;
+  width: 35%;
+  font-weight: 800;
+  margin-top: 10px;
+  color: #ff5400;
+}
+
+.image:hover .discount {
+  top: -20%;
+}
+
+.image:hover .offer {
+  bottom: -20%;
+}
+
+.image:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.discount {
+  position: absolute;
+  width: 50%;
+  height: 20%;
+  background-color: #ff5400;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 3rem;
+  border-radius: 10px;
+  transition: top 1s ease 0.1s;
+}
+
+.sea {
+  background-image: url("../Images/save.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.ban {
+  background-image: url("../Images/ban.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.kash {
+  background-image: url("../Images/Kash.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.hill {
+  background-image: url("../Images/Rectangle4.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
