@@ -4,6 +4,11 @@
     padding: 20px;
   }
 
+  h3 {
+    font-size: 1.25rem;
+    margin-bottom: 3px;
+  }
+
   h5 {
     font-size: 1.25rem;
   }
@@ -137,7 +142,7 @@
   }
 
   .three .cards {
-    width: calc( 100% - 48px);
+    width: calc(100% - 48px);
   }
 
   .three .cards img {
@@ -146,6 +151,67 @@
   }
 
   .three .cards p {
-    font-size: .875rem;
+    font-size: 0.875rem;
+  }
+
+  /* four section */
+
+  .four {
+    margin-bottom: 100px;
+  }
+
+  .four > p {
+    width: 90%;
+    font-size: 0.875rem;
+  }
+
+  .four .deals-row {
+    height: 1532px;
+  }
+
+  .four .deals-card .card {
+    width: 100%;
+    height: 297px;
+    padding-left: 25px;
+  }
+
+  .four .deals-card .card nav .date,
+  .four .deals-card .card nav .personn,
+  .four .deals-card .card nav .location {
+    gap: 4px;
+  }
+
+  .four .deals-row .first,
+  .four .deals-row .second,
+  .four .deals-row .third {
+    width: calc(100% - 32px);
+    padding: 0;
+    background-size: auto;
+    align-items: end;
+    justify-content: center;
+    padding: 16px;
+  }
+
+  .four .deals-row .first,
+  .four .deals-row .second,
+  .four .deals-row .third p {
+    font-size: 0.8rem;
+    line-height: normal;
+  }
+
+  .four .deals-card .card nav {
+    gap: 8px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+  }
+
+  .four .deals-card .card p > span {
+    font-size: 1rem;
+    margin-bottom: 16px;
+  }
+
+  .four > button {
+    visibility: hidden;
+    position: absolute;
   }
 }
