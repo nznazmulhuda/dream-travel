@@ -1,0 +1,45 @@
+/* first section as one */
+
+.one {
+  display: flex;
+  gap: 54px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.one .content {
+  width: calc( 50% - 27px);
+}
+
+.one .content p {
+  width: 100%;
+  color: rgba(19, 19, 24, 0.7);
+  line-height: 26px;
+  padding-bottom: 16px;
+}
+
+.one .content ul {
+  position: relative;
+  width: 80%;
+  left: 30px;
+}
+
+.one .content button {
+  padding: 14px 34px;
+  font-weight: 800;
+  font-size: 20px ;
+  margin-top: 16px;
+}
+
+.one .image {
+  width: calc( 50% - 27px);
+  height: auto;
+}
+
+.one .image img {
+  width: 100%;
+  height: auto;
+}
+
+/* second section as two */
+

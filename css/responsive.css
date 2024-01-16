@@ -1,7 +1,11 @@
 @media screen and (max-width: 600px) {
 
-  header {
+  header, main {
     padding: 20px;
+  }
+
+  h6 {
+    font-size: 1.25rem;
   }
 
   header .logo h1 {
@@ -61,5 +65,23 @@
 
   header .find-now button {
     width: calc(100% - 3px);
+  }
+
+  .one {
+    flex-direction: column;
+    text-align: left;
+    justify-content: left;
+  }
+
+  .one .content, .one .image {
+    width: calc( 100% - 27px);
+  }
+
+  .one .content p {
+    font-size: 0.875rem;
+  }
+
+  .one .content ul {
+    left: 20px;
   }
 }
