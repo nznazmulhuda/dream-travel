@@ -277,24 +277,35 @@
   /* footer section  */
 
   footer {
-    margin-bottom: 0;
+    padding-top: 33.2px;
+    padding-bottom: 31.28px;
+  }
+
+  footer .logo {
+    margin-bottom: 17px;
   }
 
   footer .logo img {
-    width: 35px;
-    height: 33px;
+    width: 29px;
+    height: 34px;
   }
 
   footer .logo h1 {
-    font-size: 1.25rem;
-  }
-
-  footer hr {
-    width: 90%;
+    font-size: 1.3rem;
   }
 
   footer p {
-    width: 90%;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 16px;
   }
 
+  footer .social {
+    margin-bottom: 24px;
+  }
+
+  footer hr {
+    margin-bottom: 24px;
+  }
+  
 }
