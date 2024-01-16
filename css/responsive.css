@@ -244,4 +244,57 @@
     font-size: .8rem;
     line-height: 24px;
   }
+
+  /* six section */
+
+  .six {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .six .six-content {
+    width: calc(100% - 80px - 5px );
+  }
+
+  .six .six-image {
+    height: 300px;
+    width: 100%;
+  }
+
+  .six .six-image .save {
+    width: 60%;
+    bottom: 45px;
+  }
+
+  .six .six-image .save p {
+    font-size: 1rem;
+  }
+
+  .six .six-image .save h4 {
+    font-size: 1.25rem;
+  }
+
+  /* footer section  */
+
+  footer {
+    margin-bottom: 0;
+  }
+
+  footer .logo img {
+    width: 35px;
+    height: 33px;
+  }
+
+  footer .logo h1 {
+    font-size: 1.25rem;
+  }
+
+  footer hr {
+    width: 90%;
+  }
+
+  footer p {
+    width: 90%;
+  }
+
 }
