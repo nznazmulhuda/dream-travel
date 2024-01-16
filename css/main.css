@@ -2,13 +2,15 @@
 
 .one {
   display: flex;
+  margin-top: 48px;
   gap: 54px;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .one .content {
-  width: calc( 50% - 27px);
+  width: calc(50% - 27px);
 }
 
 .one .content p {
@@ -27,12 +29,12 @@
 .one .content button {
   padding: 14px 34px;
   font-weight: 800;
-  font-size: 20px ;
+  font-size: 20px;
   margin-top: 16px;
 }
 
 .one .image {
-  width: calc( 50% - 27px);
+  width: calc(50% - 27px);
   height: auto;
 }
 
@@ -43,3 +45,99 @@
 
 /* second section as two */
 
+.two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.two p {
+  width: 50%;
+  text-align: center;
+  margin-bottom: 48px;
+  color: rgba(19, 19, 24, 0.70);
+  line-height: 24px;
+}
+
+.two .images {
+  width: 100%;
+}
+
+.two .images .row1 {
+  display: grid;
+  grid-template-columns: calc(50% - 12px) calc(50% - 12px);
+  gap: 24px;
+  height: 300px;
+  align-items: center;
+  text-align: center;
+}
+
+.two .images .row2 {
+  display: grid;
+  grid-template-columns: calc(30% - 16px) calc(45% - 16px) calc(25% - 16px);
+  margin: 24px 0;
+  gap: 24px;
+  height: 286px;
+  align-items: center;
+  text-align: center;
+}
+
+.two .images .row3 {
+  display: grid;
+  grid-template-columns: calc(40% - 12px) calc(60% - 12px);
+  gap: 24px;
+  height: 300px;
+  margin: 24px 0;
+  align-items: center;
+  text-align: center;
+}
+
+#maldives,
+#indo,
+#sri,
+#north,
+#kash,
+#bang,
+#band {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ), lightgray 50% / cover no-repeat;
+    background-size: 100% 100%;
+}
+
+#maldives {
+  background-image: url("../Images/Maldives.png");
+}
+
+#indo {
+  background-image: url("../Images/Indo.png");
+}
+
+#sri {
+  background-image: url("../Images/sri.png");
+}
+
+#north {
+  background-image: url("../Images/north.png");
+}
+
+#kash {
+  background-image: url("../Images/Kash.png");
+}
+
+#bang {
+  background-image: url("../Images/ban.png");
+}
+
+#band {
+  background-image: url("../Images/bandor.png");
+}
