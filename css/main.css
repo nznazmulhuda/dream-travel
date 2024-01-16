@@ -213,7 +213,7 @@
   width: 70%;
   margin: 0 auto;
   margin-bottom: 3rem;
-  color: rgba(19, 19, 24, 0.70);
+  color: rgba(19, 19, 24, 0.7);
 }
 
 .four .deals-row {
@@ -226,18 +226,19 @@
 }
 
 .four .deals-row .first {
-  width: calc( 100% - 56px );
+  width: calc(100% - 56px);
   height: 500px;
   background-image: url("../Images/type1.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  display: flex;align-items: center;
+  display: flex;
+  align-items: center;
   justify-content: end;
   padding-right: 56px;
 }
 
 .four .deals-row .second {
-  width: calc( 100% - 56px );
+  width: calc(100% - 56px);
   height: 500px;
   background-image: url("../Images/type2.png");
   background-repeat: no-repeat;
@@ -248,7 +249,7 @@
 }
 
 .four .deals-row .third {
-  width: calc( 100% - 56px );
+  width: calc(100% - 56px);
   height: 500px;
   background-image: url("../Images/type1.png");
   background-repeat: no-repeat;
@@ -316,4 +317,64 @@
   margin-top: 48px;
   padding: 14px 21px;
   margin-bottom: 100px;
+}
+
+/* five section is here as five  */
+
+.five {
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  gap: 28px;
+}
+
+.five .five-content {
+  width: calc(100% - 34px);
+}
+
+.five .five-content p {
+  width: 100%;
+  color: #5a5a5d;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+
+.five .five-content ul {
+  padding-left: 20px;
+  color: #131318;
+  width: 100%;
+}
+
+.five .five-content ul li {
+  margin-bottom: 16px;
+}
+
+.five .five-content ul li p {
+  color: #131318;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.five .five-content button {
+  margin-top: 16px;
+  padding: 14px 42px;
+}
+
+.five .five-image {
+  width: calc(100% - 14px);
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url("../Images/video.png");
+  background-size: 100% 100%;
+}
+
+.five .five-image h1 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 36px;
 }

@@ -214,4 +214,34 @@
     visibility: hidden;
     position: absolute;
   }
+
+  .five {
+    flex-direction: column;
+  }
+
+  .five h6 {
+    text-align: left;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .five .five-content p {
+    width: 100%;
+    font-size: .8rem;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
+
+  .five .five-content ul li {
+    margin-bottom: 14px;
+  }
+
+  .five .five-content button {
+    margin-top: 3px;
+  }
+
+  .five .five-content ul li p {
+    font-size: .8rem;
+    line-height: 24px;
+  }
 }
